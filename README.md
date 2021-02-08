@@ -9,3 +9,4 @@ Proyecto React para practicar los siguientes aspectos:
   5. Guardar datos en LocalStorage
 
 Para información sobre como instalar este proyecto: [Instalación](docs/.instalation.md)
+Curso: [Enlace](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones)
