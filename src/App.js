@@ -21,7 +21,7 @@ function App() {
     } else {
       localStorage.setItem('citas', []);
     }
-  }, [citas])
+  }, [citas, citasIniciales])
 
   // Función que agrege la nueva cita a las actuales
   const crearCita = cita => {

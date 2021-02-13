@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import PropTypes from 'prop-types';
 import uuid from 'uuid/v4';
 
 const Form = ({crearCita}) => {
@@ -125,6 +126,10 @@ const Form = ({crearCita}) => {
             </form>
         </Fragment>
     )
+}
+
+Form.propTypes = {
+  crearCita: PropTypes.func.isRequired
 }
 
 export default Form;
