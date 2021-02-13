@@ -15,7 +15,6 @@ function App() {
   const [citas, guardarCitas] = useState(citasIniciales);
 
   // Use Effect para realizar ciertas operaciones cuando el state cambia
-
   useEffect(() => {
     if (citasIniciales) {
       localStorage.setItem('citas', JSON.stringify(citas));
